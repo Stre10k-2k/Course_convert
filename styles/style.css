@@ -1,0 +1,140 @@
+*{
+    color: white;
+    background-color: transparent;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #171C26;
+}
+header{
+    padding: 0 100px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.user_profile{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 75px;
+    border-radius: 50%;
+}
+.avatar, .user_nick{
+    cursor: pointer;
+}
+.user_welcome{
+    line-height: 0.3;
+    padding-left: 9px;
+}
+.user_welcome_words{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.user_nick{
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav_bar_item{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+.nav_bar_item:hover{
+    cursor: pointer;
+}
+.nav_input_form{
+    position: relative;
+}
+.nav_input{
+    width: 208px;
+    height: 38px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 5px;
+    color: black;
+    background-color: white;
+}
+.nav_search{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(9, 192, 250, 1);
+    border-radius: 5px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.nav_search:hover{
+    cursor: pointer;
+}
+.header_section{
+    margin-top: 40px;
+    background-color: rgba(32, 39, 53, 1);
+    height: 486px;
+    border-radius: 19px;
+    padding: 20px 100px;
+}
+.header_title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+}
+.header_section_contauner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container{
+    display: flex;
+    padding: 100px 0;
+}
+.header_container_title{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.header_section_img{
+    width: 74px;
+    height: 82px;
+    align-self: flex-end;
+}
+.header_custom_button{
+    position: relative;
+    margin-top: 30px;
+}
+.header_btn{
+    border: 4px solid white;
+    width: 240px;
+    height: 58px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+.background_btn{
+    position: absolute;
+    background-color: #09C0FA;
+    width: 240px;
+    height: 58px;
+    top: 7px;
+    left: 7px;
+    z-index: 1;
+}
+.yellow{
+    background-color: #FFB647;
+}
+.header_btn:hover{
+    cursor: pointer;
+}
+.header_custom_button:hover .background_btn{
+    top: 0px;
+    left: 0px;
+}
