@@ -129,12 +129,150 @@ header{
     z-index: 1;
 }
 .yellow{
-    background-color: #FFB647;
+    background-color: #FFB647 !important;
 }
 .header_btn:hover{
     cursor: pointer;
 }
-.header_custom_button:hover .background_btn{
+.header_custom_button:active .background_btn{
     top: 0px;
     left: 0px;
+    transition-duration: 100ms;
+}
+.convert{
+    background-color: rgba(32, 39, 53, 1);
+    height: 486px;
+    border-radius: 19px;
+    margin: 20px 100px;
+    padding: 100px;
+    margin-top: 140px;
+}
+.convert_title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.yellow_word{
+    color: #FFB647;
+}
+.converte_function{
+    display: flex;
+    justify-content: space-around;
+}
+.choose_gap{
+    position: relative;
+}
+option{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: black;
+}
+.select{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+    height: 52px;
+    border: white solid 4px;
+    z-index: 2;
+    position: relative;
+    padding-left: 5px;
+}
+.bg_color{
+    background-color: #09C0FA;
+    width: 200px;
+    height: 52px;
+    z-index: 1;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.choose_gap:active .bg_color{
+    top: 0px;
+    left: 0px;
+    transition-duration: 100ms;
+}
+.select:hover{
+    cursor: pointer;
+}
+.input_btn_convert{
+    margin: 50px 211px;
+    display: flex;
+}
+.input_container{
+    position: relative;
+    justify-self: center;
+}
+.input{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 186px;
+    height: 48px;
+    border: white solid 4px;
+    z-index: 2;
+    position: relative;
+    padding-left: 10px;
+}
+.background_input{
+    background-color: #09C0FA;
+    width: 200px;
+    height: 52px;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.convertbtn_contain{
+    margin-left: 50px;
+    position: relative;
+}
+.convertbtn{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 150px;
+    height: 52px;
+    border: white solid 4px;
+    z-index: 2;
+    position: relative;
+    padding-left: 5px;
+}
+.convertbtn_bg{
+    background-color: #FFB647;
+    width: 150px;
+    height: 52px;
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.convertbtn_contain:active .convertbtn_bg{
+    top: 0px;
+    left: 0px;
+    transition-duration: 100ms;
+}
+.convertbtn:hover{
+    cursor: pointer;
+}
+.result{
+    margin-left: 220px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.news{
+    background-color: rgba(32, 39, 53, 1);
+    height: 486px;
+    border-radius: 19px;
+    margin: 20px 100px;
+    padding: 100px;
+    margin-top: 140px;
+}
+.news_header{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.5;
 }
