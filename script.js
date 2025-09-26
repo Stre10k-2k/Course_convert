@@ -54,7 +54,8 @@ convertBtn.onclick = async function() {
 
         const converting = (summ * data.rates[toValue]);
 
-        result.textContent = `${converting}`
+        result.textContent = `${valueInput.value} ${fromValue} = ${converting.toFixed(3)} ${toValue}`;
+        valueInput.value = 1;
 
     } catch (error) {
         alert(`There's an Error: ${error}`);
