@@ -270,9 +270,76 @@ option{
     padding: 100px;
     margin-top: 140px;
 }
-.news_header{
+.news_title{
     text-align: center;
     font-size: 46px;
     font-weight: 800;
     line-height: 1.5;
+}
+.news_list{
+    display: flex;
+    justify-content: space-around;
+}
+.news_item{
+    width: 275px;
+    height: 311px;
+    background-color: #171C26;
+}
+.news_headline{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px;
+}
+.news_underline{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 15px;
+}
+.trade{
+    background-color: rgba(32, 39, 53, 1);
+    height: 486px;
+    border-radius: 19px;
+    margin: 20px 100px;
+    padding: 100px;
+    margin-top: 140px;
+}
+.trade_title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.trade_discription{
+    display: flex;
+    justify-content: space-between;
+}
+.about_container{
+    display: flex;
+}
+.about_title{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.etheriumimg{
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+footer{
+    margin-top: 200px;
+}
+tr{
+    text-align: left;
+}
+.titles{
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.links{
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.data:hover{
+    cursor: pointer;
 }
