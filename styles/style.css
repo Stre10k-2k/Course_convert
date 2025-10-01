@@ -15,6 +15,7 @@ header{
 .header_nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 50px 0;
 }
 .user_profile{
@@ -40,6 +41,33 @@ header{
 .user_nick{
     font-size: 24px;
     font-weight: 700;
+}
+.menu_bar{
+    display: none;
+    margin: 0 30px;
+    position: relative;
+}
+.menu_bar:hover .dropdown_content{
+    display: inline-block;
+}
+.dropdown_btn{
+    font-size: 20px;
+}
+.dropdown_content{
+    background-color: rgba(32, 39, 53, 1);
+    top: 35px;
+    justify-self: center;
+    position: absolute;
+    display: none;
+    border: 1px solid #171C26;
+    padding: 0;
+}
+.dropdown_item{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    border: 1px solid #171C26;
 }
 .nav_bar_item{
     display: inline-block;
@@ -200,6 +228,7 @@ option{
 .input_btn_convert{
     margin: 50px 211px;
     display: flex;
+    justify-self: center;
 }
 .input_container{
     position: relative;
@@ -258,9 +287,9 @@ option{
     cursor: pointer;
 }
 .result{
-    margin-left: 220px;
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
 }
 .news{
     background-color: rgba(32, 39, 53, 1);
@@ -281,9 +310,13 @@ option{
     justify-content: space-around;
 }
 .news_item{
-    width: 275px;
-    height: 311px;
+    width: 30%;
+    height: 100%;
     background-color: #171C26;
+    
+}
+.news_img{
+    width: 100%;
 }
 .news_headline{
     font-weight: 700;
@@ -294,6 +327,12 @@ option{
     font-size: 10px;
     font-weight: 400;
     padding: 15px;
+}
+.show_news{
+    display: none;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0 15px;
 }
 .trade{
     background-color: rgba(32, 39, 53, 1);
