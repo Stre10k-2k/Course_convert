@@ -18,6 +18,9 @@ header{
     align-items: center;
     margin: 50px 0;
 }
+.nav_bar_container{
+    display: flex;
+}
 .user_profile{
     display: flex;
     align-items: center;
